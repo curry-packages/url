@@ -1,0 +1,19 @@
+{
+    "name": "url",
+    "version": "1.0.0",
+    "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
+    "synopsis": "Library for dealing with URLs",
+    "category": [ "Web" ],
+    "dependencies": { },
+    "exportedModules": [ "URL" ],
+    "compilerCompatibility": {
+        "pakcs": ">= 1.14.0",
+        "kics2": ">= 0.5.0"
+    },
+    "license": "BSD-3-Clause",
+    "licenseFile": "LICENSE",
+    "source": {
+        "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/url.git",
+        "tag": "$version"
+    }
+}

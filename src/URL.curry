@@ -8,7 +8,7 @@
 
 module URL(getContentsOfUrl) where
 
-import System
+import System.Process
 import IOExts(readCompleteFile)
 
 --- Reads the contents of a document located by a URL.

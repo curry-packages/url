@@ -4,7 +4,10 @@
     "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
     "synopsis": "Library for dealing with URLs",
     "category": [ "Web" ],
-    "dependencies": { },
+    "dependencies": {
+        "base" : ">= 2.0.0"
+        
+    },
     "exportedModules": [ "URL" ],
     "compilerCompatibility": {
         "pakcs": ">= 2.0.0",

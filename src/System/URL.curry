@@ -2,15 +2,15 @@
 --- Library for dealing with URLs (Uniform Resource Locators).
 ---
 --- @author Michael Hanus
---- @version October 2019
+--- @version November 2020
 ------------------------------------------------------------------------------
 
 module System.URL ( getContentsOfUrl ) where
 
-import Directory ( getTemporaryDirectory )
-import FilePath  ( (</>) )
-import System    ( getPID, system )
-import IOExts    ( readCompleteFile )
+import System.Directory ( getTemporaryDirectory )
+import System.FilePath  ( (</>) )
+import System.Process   ( getPID, system )
+import System.IOExts    ( readCompleteFile )
 
 --- Reads the contents of a document located by a URL.
 --- This action requires that the program "wget" is in your path,
